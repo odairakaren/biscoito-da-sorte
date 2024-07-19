@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'DM Sans', 'Dancing Script';
+}
+
+html {
+    min-height: 100%;
+}
+
+body{
+    background: linear-gradient(#190361, #BB00FF);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 3.25rem 4rem 3.25rem 4rem;
+
+
+}
+
+
+
+/* div{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.home{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.625rem;
+    max-width: 15rem;
+    
+}
+.lucky{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+h3{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 24px;
+    color: #34355B;
+}
+
+.home h2{
+    font-family: 'DM Sans';
+    font-weight: 300;
+    font-size: 15px;
+    color: #34355B;
+}
+
+.text h2{
+    font-family: 'Dancing Script';
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    background-color: #E4EDF1;
+}
+
+button{
+    width: 174px;
+    height: 52px;
+    border-radius: 4px;
+    font-weight: 700;
+    background-color: #FF9500;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px 16px 10px 16px;
+}
+
+.click h2{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'DM Sans';
+}
+
+.home img{ 
+    height: 200px;
+    width: 300px;
+} 
+
+img:hover{
+    animation:shake .1s ease-in-out
+    .1s infinite alternate;
+}
+
+
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+
+.hide {
+    display: none;
+}
