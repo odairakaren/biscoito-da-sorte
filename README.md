@@ -15,6 +15,7 @@ Este projeto tem como objetivo **[lhe mostrar uma mensagem do biscoito da sorte]
 - Linguagem principal:
 --CSS
 --HTML
+--JavaScript
 
 ---
 
